@@ -1,0 +1,131 @@
+body {
+    background-color: #050816;
+    color: #00ffff;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding-top: 40px;
+}
+
+
+/* Título */
+h1 {
+    font-size: 40px;
+    color: #00ffff;
+
+    text-shadow:
+        0 0 5px #00ffff,
+        0 0 10px #00ffff,
+        0 0 20px #00ffff,
+        0 0 40px #00ffff;
+}
+
+
+/* Texto */
+label {
+    font-size: 22px;
+    margin-right: 10px;
+}
+
+
+/* Input */
+input {
+    width: 100px;
+    padding: 10px;
+
+    border: 2px solid #ff00ff;
+    border-radius: 10px;
+
+    background-color: #111827;
+    color: white;
+
+    font-size: 18px;
+    text-align: center;
+
+    box-shadow:
+        0 0 5px #ff00ff,
+        0 0 15px #ff00ff;
+
+    outline: none;
+}
+
+
+/* Botón */
+button {
+    margin-left: 15px;
+    padding: 12px 25px;
+
+    border: none;
+    border-radius: 12px;
+
+    background-color: #ff00ff;
+    color: white;
+
+    font-size: 18px;
+    font-weight: bold;
+
+    cursor: pointer;
+
+    box-shadow:
+        0 0 5px #ff00ff,
+        0 0 20px #ff00ff,
+        0 0 40px #ff00ff;
+
+    transition: 0.3s;
+}
+
+
+/* Efecto hover */
+button:hover {
+
+    background-color: #00ffff;
+
+    box-shadow:
+        0 0 5px #00ffff,
+        0 0 20px #00ffff,
+        0 0 40px #00ffff;
+
+    transform: scale(1.05);
+}
+
+
+/* Tabla */
+table {
+    margin: 30px auto;
+
+    border-collapse: collapse;
+
+    min-width: 300px;
+
+    background-color: rgba(255,255,255,0.05);
+
+    box-shadow:
+        0 0 10px #00ffff,
+        0 0 30px #00ffff;
+}
+
+
+/* Celdas */
+th, td {
+
+    border: 2px solid #00ffff;
+
+    padding: 15px;
+
+    font-size: 20px;
+}
+
+
+/* Encabezados */
+th {
+
+    background-color: #00ffff;
+    color: black;
+
+    text-shadow: none;
+}
+
+
+/* Filas */
+td {
+    color: white;
+}
